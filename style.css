@@ -21,3 +21,9 @@ ul {
     background-color: #1f2937;
     color: white;
 }
+
+.heading-two {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
