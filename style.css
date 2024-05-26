@@ -13,11 +13,11 @@ ul {
     font-weight: bold;
 
 }
-.header .right-linkes {
+.header .right-links {
     font-size: 18px;
 }
 
-.row-one {
+.row-one, .footer {
     background-color: #1f2937;
     color: white;
 }
@@ -27,3 +27,35 @@ ul {
     font-size: 36px;
     font-weight: bolder;
 }
+
+.row-three {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    color: white;
+}
+
+.heading-four {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.text-four {
+    color: white;
+    font-size: 18px;
+}
+
