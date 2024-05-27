@@ -188,8 +188,9 @@ img {
 
 .heading-four {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 24px;
     display: flex;
+    margin-bottom: 5px;
 }
 
 .info-four {
@@ -199,9 +200,20 @@ img {
 }
 
 .text-four {
-    color: white;
+    color: #e5e7eb;
     font-size: 18px;
     display: flex;
+}
+
+.button-four {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 10px 40px;
+    margin: 30px 100px;
+    font-size: 18px;
 }
 
 .footer {
@@ -209,7 +221,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px;
+    padding: 30px;
     color: #e5e7eb;
     flex: 1;
 }
