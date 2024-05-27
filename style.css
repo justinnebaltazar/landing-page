@@ -83,19 +83,32 @@ ul {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1f2937;
+    padding: 80px 90px;
+    font-family: 'Hero Light', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .author {
     color: #1f2937;
     font-size: 24px;
     font-weight: bolder;
+    padding: 20px;
+    display: flex;
+    margin-right: 90px;
+    align-self: flex-end;
 }
 
 .row-four {
@@ -113,6 +126,8 @@ ul {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
+    margin: 90px 60px;
+    padding: 40px 30px;
 }
 
 .heading-four {
@@ -132,8 +147,6 @@ ul {
     font-size: 18px;
     display: flex;
 }
-
-
 
 .footer {
     font-family: 'Hero Regular', sans-serif;
