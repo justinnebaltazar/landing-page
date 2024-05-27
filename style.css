@@ -8,6 +8,7 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
 }
 
 .row-one {
@@ -20,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 15px;
+    flex: 1 1 auto;
 }
 
 .right-one {
@@ -64,6 +66,12 @@ ul {
     display: flex;
 }
 
+.row-two {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
 .heading-two {
     color: #1f2937;
     font-size: 36px;
@@ -72,6 +80,9 @@ ul {
 
 .row-three {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
 }
 
 .quote {
@@ -84,6 +95,12 @@ ul {
     color: #1f2937;
     font-size: 24px;
     font-weight: bolder;
+}
+
+.row-four {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
 }
 
 .blue-box {
@@ -99,5 +116,15 @@ ul {
 .text-four {
     color: white;
     font-size: 18px;
+}
+
+.footer {
+    font-family: 'Hero Regular', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    color: #e5e7eb;
+    flex: 1 1 auto;
 }
 
