@@ -79,7 +79,7 @@ ul {
     border-radius: 10px;
     padding: 10px 5px;
     font-weight: bold;
-    font-size: 24;
+    font-size: 24px;
     margin: 20px 5px;
     border: 1px solid #3882F6
 }
@@ -101,16 +101,24 @@ ul {
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin: 0px 60px 0px 60px;
+    margin: 0px 60px;
     justify-content: center;
     align-items: center;
+}
+
+.heading-two {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding: 60px 60px 50px 60px;
 }
 
 img {
     width: 100px;
     height: 100px;
     padding-bottom: 30px;
-    display: flex;
 }
 
 .boxes {
@@ -125,15 +133,7 @@ img {
     max-width: 200px;
 }
 
-.heading-two {
-    color: #1f2937;
-    font-size: 36px;
-    font-weight: bolder;
-    display: flex;
-    justify-content: center;
-    padding: 60px 60px 50px 60px;
-}
-
+/* third section of the content container */
 .row-three {
     background-color: #e5e7eb;
     display: flex;
@@ -141,14 +141,14 @@ img {
     flex: 1;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box
+    box-sizing: border-box;
+    color: #1f2937;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #1f2937;
     padding: 80px 120px 10px 120px;
     font-family: 'Hero Light', sans-serif;
     display: flex;
@@ -158,19 +158,18 @@ img {
 }
 
 .author {
-    color: #1f2937;
     font-size: 24px;
     font-weight: bolder;
     padding: 20px 20px 80px 20px;
     display: flex;
     margin-right: 180px;
     align-self: flex-end;
-    justify-content: center;
 }
 
+/* fourth section of the content container */
 .row-four {
     display: flex;
-    flex: 1 1 auto;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -182,7 +181,7 @@ img {
     display: flex;
     border-radius: 10px;
     align-items: center;
-    margin: 90px 80px 90px 80px;
+    margin: 90px 80px;
     padding: 40px 30px;
 }
 
@@ -203,6 +202,7 @@ img {
     color: #e5e7eb;
     font-size: 18px;
     display: flex;
+    font-weight: lighter;
 }
 
 .button-four {
@@ -216,13 +216,14 @@ img {
     font-size: 18px;
 }
 
+/* footer styling */
+
 .footer {
-    font-family: 'Hero Regular', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
     color: #e5e7eb;
     background-color: #1f2937;
+    padding: 30px;
     flex: 1;
 }
