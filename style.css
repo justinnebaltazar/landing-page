@@ -4,7 +4,6 @@ body {
     margin: 0px;
     font-family: 'Hero Regular', sans-serif;
 }
-
 .content {
     display: flex;
     flex-direction: column;
@@ -17,8 +16,8 @@ body {
     justify-content: space-evenly;
     padding: 100px 120px;
     flex: 1;
-    
 }
+
 .button-one {
     background-color: #3882F6;
     color: white;
@@ -73,18 +72,22 @@ ul {
     background-color: #1f2937;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .title {
     font-size: 24px;
     font-weight: bold;
-    padding: 10px;
+    padding: 20px;
+    margin: 10px 0px 0px 110px;
 }
 
-.right-links .title {
+.right-links {
     font-size: 18px;
     display: flex;
+    padding: 20px;
+    margin-right: 100px;
 }
 
 .row-one, .footer {
