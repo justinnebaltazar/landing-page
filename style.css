@@ -100,18 +100,30 @@ ul {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin: 0px 60px 0px 60px;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
     width: 100px;
     height: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
 }
 
 .boxes {
     display: flex;
     justify-content: center;
     gap: 53px;
-    padding: 10px 100px 80px 100px;
+    padding: 20px 110px 120px 110px;
+}
+
+.info {
+    min-width: none;
+    max-width: 200px;
 }
 
 .heading-two {
@@ -120,7 +132,7 @@ img {
     font-weight: bolder;
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 60px 60px 50px 60px;
 }
 
 .row-three {
