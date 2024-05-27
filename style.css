@@ -32,7 +32,7 @@ body {
     font-size: 18px;
     display: flex;
     padding: 20px;
-    margin-right: 100px;
+    margin-right: 115px;
 }
 
 ul {
@@ -50,7 +50,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 120px;
+    padding: 100px 190px 100px 120px;
     flex: 1;
     background-color: #1f2937;
 }
@@ -85,6 +85,11 @@ ul {
     border: 1px solid #3882F6
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .gp {
     display: flex;
     width: 100%;
@@ -110,29 +115,40 @@ ul {
 }
 
 .heading-two {
-    color: #1f2937;
+    color: #ff2800;
+    font-style: italic;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 60px 50px 60px;
+}
+
+.title-two {
+    color: black;
     font-size: 36px;
     font-weight: bolder;
     display: flex;
     justify-content: center;
-    padding: 60px 60px 50px 60px;
-}
-
-img {
-    width: 100px;
-    height: 100px;
+    padding-top: 60px;
 }
 
 .boxes {
     display: flex;
+    flex: 1;
     justify-content: center;
     gap: 53px;
     padding: 20px 110px 120px 110px;
 }
 
 .info {
-    min-width: none;
-    max-width: 200px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 0px;
+    min-height: 0px;
 }
 
 /* third section of the content container */
