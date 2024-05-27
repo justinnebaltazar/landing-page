@@ -85,13 +85,21 @@ ul {
     border: 1px solid #3882F6
 }
 
+.gp {
+    min-height: 320px;
+    min-width: 480px;
+    display: flex; 
+    padding: 30px;
+    justify-content: center;
+    margin-left: 30px;
+}
+
 .right-one {
     display: flex; 
     background-color: #7b7c7e;
     justify-content: center;
     align-items: center;
     padding: 30px;
-    width: 800px;
     margin-left: 30px;
     flex-shrink: 1;
     color: white;
