@@ -14,7 +14,7 @@ body {
 
 .row-one {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 100px 120px;
     flex: 1;
     
@@ -51,10 +51,12 @@ body {
 
 .right-one {
     display: flex; 
-    background-color: #e5e7eb;
+    background-color: #7b7c7e;
     justify-content: center;
     align-items: center;
     padding: 30px;
+    width: 800px;
+    margin-left: 30px;
 }
 
 ul {
