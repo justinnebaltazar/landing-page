@@ -5,20 +5,46 @@ body {
     font-family: 'Hero Regular', sans-serif;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.left-one {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.right-one {
+    display: flex; 
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
 ul {
     list-style-type: none;
     display: flex;
     margin: 0px;
-    padding: 10px;
-    gap: 10px;
+    padding: 0px;
+    gap: 15px;
+    font-family: 'Hero Light', sans-serif;
+    color: #e5e7eb
 }
 
 .header {
     background-color: #1f2937;
     color: white;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .title {
@@ -35,6 +61,7 @@ ul {
 .row-one, .footer {
     background-color: #1f2937;
     color: white;
+    display: flex;
 }
 
 .heading-two {
