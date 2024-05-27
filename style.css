@@ -150,21 +150,23 @@ img {
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
-    padding: 80px 90px;
+    padding: 80px 120px 10px 120px;
     font-family: 'Hero Light', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 30px 60px 5px 60px;
 }
 
 .author {
     color: #1f2937;
     font-size: 24px;
     font-weight: bolder;
-    padding: 20px;
+    padding: 20px 20px 80px 20px;
     display: flex;
-    margin-right: 90px;
+    margin-right: 180px;
     align-self: flex-end;
+    justify-content: center;
 }
 
 .row-four {
@@ -180,9 +182,8 @@ img {
     color: white;
     display: flex;
     border-radius: 10px;
-    justify-content: center;
     align-items: center;
-    margin: 90px 60px;
+    margin: 90px 80px 90px 80px;
     padding: 40px 30px;
 }
 
