@@ -69,15 +69,29 @@ ul {
 
 .row-two {
     display: flex;
-    flex: 1 1 auto;
     flex-direction: column;
-    
+    flex: 1;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+    padding: 10px 100px 80px 100px;
 }
 
 .heading-two {
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
 .row-three {
