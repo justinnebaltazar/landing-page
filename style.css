@@ -14,15 +14,39 @@ body {
 
 .row-one {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 100px 120px;
+    flex: 1;
+    
+}
+.button-one {
+    background-color: #3882F6;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 24;
+    margin: 20px 5px;
+}
+
+.heading-one {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8
+}
+
+.text-one {
+    font-size: 18px;
+    color: #e5e7eb
 }
 
 .left-one {
     display: flex;
     flex-direction: column;
     padding: 15px;
-    flex: 1 1 auto;
+    height: auto;
+    min-width: 0;
 }
 
 .right-one {
@@ -172,4 +196,3 @@ img {
     color: #e5e7eb;
     flex: 1;
 }
-
