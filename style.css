@@ -140,6 +140,12 @@ a {
     padding: 20px 110px 120px 110px;
 }
 
+.driver-photo {
+    border: 8px solid #ff2800;
+    border-radius: 7%;
+    margin: 20px 0px;
+}
+
 .info {
     display: flex;
     width: 100%;
