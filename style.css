@@ -18,19 +18,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 .title {
     font-size: 24px;
     font-weight: bold;
-    padding: 20px;
-    margin: 10px 0px 0px 110px;
+    margin-left: 110px ;
 }
 
 .right-links {
     font-size: 18px;
     display: flex;
-    padding: 20px;
     margin-right: 115px;
 }
 
@@ -199,6 +198,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color: white;
+    color: #fffff7;
 }
 
 .red-box {
@@ -228,7 +228,6 @@ a {
 }
 
 .text-four {
-    color: #fffff7;
     font-size: 18px;
     display: flex;
     font-weight: lighter;
@@ -236,9 +235,9 @@ a {
 
 .button-four {
     background-color: black;
+    color: #fffff7;
     border-radius: 10px;
     border: 2px solid black;
-    color: #fffff7;
     font-weight: bold;
     padding: 10px 25px;
     margin: 30px 100px;
