@@ -8,7 +8,6 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
     min-height: 100vh;
 }
 
@@ -44,13 +43,16 @@ ul {
     font-family: 'Hero Light', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* first section of content container */
 .row-one {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 100px 190px 100px 120px;
-    flex: 1;
     background-color: black;
 }
 
@@ -58,6 +60,11 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 15px;
+}
+
+.right-one {
+    display: flex;
+    color: black;
 }
 
 .heading-one {
@@ -84,21 +91,13 @@ ul {
     border: 1px solid #ff2800
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.gp {
-    display: flex;
+.monaco {
     width: 100%;
     height: 100%;
     margin-left: 30px;
-    justify-content: center;
-    align-items: center;
-    min-width: 0px;
-    min-height: 0px;
-    border: 7px solid #ff2800;
+    min-width: 263px;
+    min-height: 178px;
+    border: 5px solid #ff2800;
     border-radius: 7%;
 }
 
@@ -117,9 +116,8 @@ a {
     color: #ff2800;
     font-style: italic;
     font-size: 36px;
-    display: flex;
-    justify-content: center;
     padding: 15px 60px;
+    text-align: center;
 }
 
 .title-two {
@@ -142,43 +140,40 @@ a {
 .driver-photo {
     border: 8px solid #ff2800;
     border-radius: 7%;
-    max-width: 900px;
-    max-height: 563px;
+    width: 100%;
+    height: 100%;
+    min-width: 316px;
+    min-height: 203px;
 }
 
-.text {
+.text-two {
     padding-top: 40px;
+    font-size: 18px;
+    color: black;
+    max-width: 800px;
+    text-align: center;
 }
 
 .info {
     display: flex;
-    width: 100%;
-    height: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
-    min-width: 0px;
-    min-height: 0px;
-    max-width: 800px;
-    font-size: 18px;
 }
 
 /* third section of the content container */
 /* quote and author section */
 .row-three {
     background-color: black;
+    color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    flex: 1;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
-    color: #e5e7eb;
+    font-size: 26px;
 }
 
 .quote {
-    font-size: 26px;
     font-style: italic;
     font-weight: lighter;
     padding: 80px 120px 10px 120px;
@@ -190,7 +185,6 @@ a {
 }
 
 .author {
-    font-size: 24px;
     font-weight: bold;
     padding: 20px 20px 80px 20px;
     display: flex;
@@ -201,19 +195,20 @@ a {
 /* fourth section of the content container */
 .row-four {
     display: flex;
-    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
 }
 
-.blue-box {
+.red-box {
     background-color: #ff2800;
-    color: #f9faf8;
+    color: #fffff7;
     display: flex;
-    border-radius: 10px;
+    min-width: 0;
+    flex: 0 1 auto;
     align-items: center;
+    border-radius: 10px;
     margin: 90px 80px;
     padding: 40px 30px;
 }
@@ -228,11 +223,12 @@ a {
 .info-four {
     display: flex;
     flex-direction: column;
-    padding: 20px 40px;
+    padding: 5px;
+    margin-left: 30px;
 }
 
 .text-four {
-    color: #e5e7eb;
+    color: #fffff7;
     font-size: 18px;
     display: flex;
     font-weight: lighter;
@@ -242,11 +238,12 @@ a {
     background-color: black;
     border-radius: 10px;
     border: 2px solid black;
-    color: white;
+    color: #fffff7;
     font-weight: bold;
-    padding: 10px 40px;
+    padding: 10px 25px;
     margin: 30px 100px;
-    font-size: 18px;
+    font-size: 20px;
+    width: 150px;
 }
 
 /* footer styling */
